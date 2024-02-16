@@ -38,7 +38,13 @@
 # word = "entrepreneur"
 # print(tuple(word))
 
-def greet():
-    print("welcome")
+# def greet():
+#     print("welcome")
 
-greet()
+# greet()
+
+class Sitcoms:
+    genre = "Comedy"
+
+Friends = Sitcoms
+print(Friends.genre)

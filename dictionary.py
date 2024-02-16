@@ -15,7 +15,12 @@
 # w = neigbors.items()
 # print(w)
 
-quiz_score = {"Rex": 98, "ian": 83, "Bob": 72, "Lin": 87}
+# quiz_score = {"Rex": 98, "ian": 83, "Bob": 72, "Lin": 87}
 
-print(quiz_score.pop("rex"))
-print(quiz_score)
+# print(quiz_score.pop("rex"))
+# print(quiz_score)
+
+
+partners = {"sam" : "eric", "ron" : "Matilda"}
+partner_1 = partners.keys()
+print(partner_1)
